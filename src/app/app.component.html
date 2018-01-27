@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/nav1">Registration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/nav2">Employee List</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- <ul>
+  <li *ngFor="let contact of contacts" (click)="onSelect(contact)" [class.clicked]="selectedContact===contact">{{contact.firstName}} {{contact.lastName}}</li>
+</ul><br>
+<div>
+  PhoneNumber:{{selectedContact.phone}}<br>
+  Email:{{selectedContact.email}}
+</div> -->
+
+<!-- <nav><a routerLink="/nav1">Nav1</a></nav>
+<nav><a routerLink="/nav2">Nav2</a></nav> -->
+<h1 style="text-align:center">Welcome to App!!</h1>
+<router-outlet></router-outlet>

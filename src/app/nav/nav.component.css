@@ -1,0 +1,16 @@
+body{
+    margin-left: 470px;
+}
+.palel-primary
+{
+    border-color: #032830;
+}
+.panel-primary>.panel-heading
+{
+    background:#2fb2cc;
+    
+}
+.panel-primary>.panel-body
+{
+    background-color: #EDEDED;
+}
