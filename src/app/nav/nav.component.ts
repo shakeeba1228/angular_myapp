@@ -7,5 +7,11 @@ import {FormGroup,FormControl} from '@angular/forms';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
-UserForm =new FormGroup({});
+UserForm =new FormGroup({
+  name:new FormControl(),
+  email:new FormControl(),
+  address:new FormGroup({
+    
+  })
+});
 }
